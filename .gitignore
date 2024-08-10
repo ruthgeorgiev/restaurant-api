@@ -1,0 +1,42 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Docker files
+docker-compose.override.yml
+docker-compose.dev.yml
+.dockerignore
+
+# Local development
+.idea/
+.vscode/
+.DS_Store
+
+# MacOS system files
+.DS_Store
+
+# Linux system files
+*.swp
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Build files
+dist/
+build/
+.tmp/
+
+# Ignore data volumes
+data/
