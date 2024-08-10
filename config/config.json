@@ -1,23 +1,23 @@
 {
   "development": {
-    "username": "root",
-    "password": "root",
-    "database": "restaurant-api",
-    "host": "127.0.0.1",
+    "username": "u3hsagm88tspjb",
+    "password": "pf238c3cf15492bc2ac8d2cf61cfc58ba2c9039203397d3c55cb5b785a7fc3b6e",
+    "database": "d5ck0qn9ofhe38",
+    "host": "c9mq4861d16jlm.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com",
     "dialect": "postgres"
   },
   "test": {
-    "username": "root",
-    "password": "root",
-    "database": "restaurant-api-test",
-    "host": "127.0.0.1",
+    "username": "u3hsagm88tspjb",
+    "password": "pf238c3cf15492bc2ac8d2cf61cfc58ba2c9039203397d3c55cb5b785a7fc3b6e",
+    "database": "d5ck0qn9ofhe38",
+    "host": "c9mq4861d16jlm.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com",
     "dialect": "postgres"
   },
   "production": {
-    "username": "root",
-    "password": "root",
-    "database": "restaurant-api-production",
-    "host": "127.0.0.1",
+    "username": "u3hsagm88tspjb",
+    "password": "pf238c3cf15492bc2ac8d2cf61cfc58ba2c9039203397d3c55cb5b785a7fc3b6e",
+    "database": "d5ck0qn9ofhe38",
+    "host": "c9mq4861d16jlm.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com",
     "dialect": "postgres"
   }
 }
