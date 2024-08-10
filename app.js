@@ -8,6 +8,11 @@ const restaurantRoutes = require('./routes/restaurants');
 const cityRoutes = require('./routes/cities');
 const tagRoutes = require('./routes/tags');
 
+// Define a route for the root URL
+app.get('/', (req, res) => {
+    res.send('Welcome to the Restaurant API');
+});
+
 // Use routes
 app.use('/restaurants', restaurantRoutes);
 app.use('/cities', cityRoutes);
