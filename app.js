@@ -18,6 +18,7 @@ app.use('/restaurants', restaurantRoutes);
 app.use('/cities', cityRoutes);
 app.use('/tags', tagRoutes);
 
+
 sequelize.authenticate()
     .then(() => {
         console.log('Database connected...');
